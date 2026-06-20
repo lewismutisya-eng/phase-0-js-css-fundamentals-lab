@@ -26,7 +26,7 @@
 }
 
 /* Step 5: Style the Main Content */
-main, .main-content {
+.main-content {
     padding-top: 5em;
 }
 
@@ -35,16 +35,12 @@ section {
     text-align: center;
 }
 
-#hero, .home-section {
-    /* Target your home/hero area */
-}
-
-#hero h1, .home-section h1 {
+.home-section {
     font-size: 2.5em;
     margin-bottom: 0.5em;
 }
 
-#hero p, .home-section p {
+.home-section p {
     font-size: 1.2em;
     color: #666;
 }
@@ -68,7 +64,7 @@ section {
     transition: transform 0.3s;
 }
 
-.portfolio-item h2, .portfolio-item h3 {
+.portfolio-item h3 {
     font-weight: bold;
     margin-bottom: 0.5em;
 }
